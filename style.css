@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b1320;
+  color: white;
+  text-align: center;
+}
+
+.hero {
+  padding: 80px 20px;
+}
+
+.projects {
+  padding: 40px;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1f2a44;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  width: 250px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
